@@ -22,6 +22,7 @@ perfiles = {
 print("Ingrese el modelo del perfil (C-050, C-075, C-100, C-125, C-150, C-200): ")
 modelo = input()
 print("Ingrese el calibre del perfil (18, 20): ")
+print("Aviso: El perfil C-200 no tiene calibre 20 en existencia")
 calibre = int( input())
 #Por lo cual guardamos las entradas de teclado del usuario en dos variables para cada objeto necesatio.
 #Seguidamente mostramos los datos del perfil si existe dentro del diccionario
